@@ -1,0 +1,150 @@
+VGG16-GLOBAL_MAX_POOLING2D-DENSE128-DROPOUT02-SGD unfreeze last 2 layers epoch 20
+Buses :  26.717557251908396 %
+Cars :  81.83206106870229 %
+Motorcycles :  61.52671755725191 %
+Trucks :  51.14503816793893 %
+
+
+
+
+
+
+VGG16 unfreeze last 2 layers Adam
+Buses :  34.045801526717554 %
+Cars :  80.0 %
+Motorcycles :  76.4885496183206 %
+Trucks :  55.57251908396947 %
+
+VGG16 unfreeze last 2 layers SGD Bad
+
+
+
+
+
+
+
+
+
+
+
+
+
+VGG16 Epoch 36 64x64x64 -> GlobalPooling2D -> Dropout 0.2
+Buses :  80.1526717557252 %
+Cars :  43.81679389312977 %
+Motorcycles :  76.94656488549619 %
+Trucks :  35.267175572519086 %
+
+VGG16 Epoch 20 64x64x64 -> GlobalPooling2D -> Dropout 0.2
+Bus :  44.12213740458015 %
+Car :  71.90839694656489 %
+Motorcycle :  85.19083969465649 %
+Truck :  49.9236641221374 %
+
+VGG16V2 Epoch 35 64x64x64 -> GlobalPooling2D -> Dropout 0.25
+Buss :  54.80916030534351 %
+Cars :  78.3206106870229 %
+Motorcycles :  79.8473282442748 %
+Trucks :  49.00763358778626 %
+
+VGG16V2 Epoch 45 64x64x64 -> GlobalPooling2D -> Dropout 0.25
+Buss :  87.78625954198473 %
+Cars :  20.0 %
+Motorcycles :  61.6793893129771 %
+Trucks :  22.137404580152673 %
+
+VGG16V2 Epoch 38 64x64x64 -> GlobalPooling2D -> Dropout 0.25
+Buss :  77.25190839694656 %
+Cars :  84.42748091603053 %
+Motorcycles :  69.16030534351145 %
+Trucks :  15.114503816793894 %
+
+
+
+
+VGG16 Epoch 21 128x128x64 -> GlobalPooling2D -> Dropout 0.2 76% AC (---BEST---)
+Bus :  55.725190839694655 %
+Car :  74.04580152671755 %
+Motorcycle :  89.16030534351145 %
+Truck :  63.51145038167939 %
+
+VGG16 Epoch 25 128x128x96 -> GlobalPooling2D -> Dense 128 -> Dropout 0.2 76% AC
+Buses :  86.41221374045801 %
+Cars :  71.6030534351145 %
+Motorcycles :  76.94656488549619 %
+Trucks :  25.0381679389313 %
+
+
+
+VGG16 Epoch 25 128x128x64 -> GlobalPooling2D -> Dropout 0.2 NO CLASS WEIGHTS
+Buses :  18.015267175572518 %
+Cars :  91.90839694656489 %
+Motorcycles :  94.04580152671755 %
+Trucks :  25.34351145038168 %
+
+VGG16 Epoch 25 128x128x64 -> GlobalPooling2D -> Dropout 0.2
+Bus :  35.41984732824427 %
+Car :  55.11450381679389 %
+Motorcycle :  78.93129770992367 %
+Truck :  76.18320610687023 %
+
+VGG16 Epoch 17 128x128x64 -> GlobalPooling2D -> Dropout 0.2 74% AC
+Bus :  35.57251908396947 %
+Car :  75.87786259541984 %
+Motorcycle :  81.06870229007633 %
+Truck :  53.587786259541986 %
+
+VGG16 Epoch 17 150x150x32 -> GlobalPooling2D -> Dropout 0.2 72% AC
+Buses :  42.74809160305343 %
+Cars :  70.99236641221374 %
+Motorcycles :  96.33587786259542 %
+Trucks :  38.778625954198475 %
+
+VGG16 Epoch 25 128x128x64 -> GlobalPooling2D -> Dropout 0.2
+Bus :  35.41984732824427 %
+Car :  55.11450381679389 %
+Motorcycle :  78.93129770992367 %
+Truck :  76.18320610687023 %
+
+VGG16 Epoch 9 64x64x64 Dense512 -> GlobalPooling2D -> Dropout 0.2
+Bus :  67.48091603053435 %
+Car :  28.549618320610687 %
+Motorcycle :  91.7557251908397 %
+Truck :  51.14503816793893 %
+
+VGG16 Epoch 9 64x64x64 Dense256 -> GlobalPooling2D -> Dropout 0.2
+Bus :  26.259541984732824 %
+Car :  9.465648854961833 %
+Motorcycle :  37.70992366412214 %
+Truck :  90.83969465648855 %
+
+
+VGG16 Epoch 9 64x64x64 Dense512 -> BatchNormalization -> Relu -> GlobalPooling2D -> Dropout 0.3
+Bus :  0.0 %
+Car :  0.0 %
+Motorcycle :  100.0 %
+Truck :  0.0 %
+
+VGG19 Epoch 7 64x64x64, GlobalPooling2D -> Dropout 0.2
+Bus :  71.14503816793894 %
+Car :  20.458015267175572 %
+Motorcycle :  83.81679389312977 %
+Truck :  36.030534351145036 %
+
+RESNET50 Epoch 6 64x64x64 GlobalPooling2D -> Dropout 0.2
+Bus :  0.0 %
+Car :  43.51145038167939 %
+Motorcycle :  0.0 %
+Truck :  55.41984732824427 %
+
+INCEPTION_RESNET_V2 64x64x64 Epoch 2
+Bus :  100.0 %
+Car :  0.0 %
+Motorcycle :  0.0 %
+Truck :  0.0 %
+
+MOBILENET 64x64x64 Dense 512 -> Dropout 0.2
+Bus :  18.625954198473284 %
+Car :  81.6793893129771 %
+Motorcycle :  19.69465648854962 %
+Truck :  46.10687022900763 %

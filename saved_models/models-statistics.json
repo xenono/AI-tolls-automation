@@ -1,0 +1,3871 @@
+{
+    "MOBILENET_1.00_224": [
+        {
+            "epoch": 1,
+            "loss": 0.78,
+            "accuracy": 0.73,
+            "val_loss": 0.93,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 2,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.88,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 3,
+            "loss": 0.42,
+            "accuracy": 0.83,
+            "val_loss": 0.89,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 4,
+            "loss": 0.38,
+            "accuracy": 0.85,
+            "val_loss": 0.78,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 5,
+            "loss": 0.36,
+            "accuracy": 0.86,
+            "val_loss": 0.78,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 6,
+            "loss": 0.35,
+            "accuracy": 0.86,
+            "val_loss": 0.75,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 7,
+            "loss": 0.33,
+            "accuracy": 0.87,
+            "val_loss": 0.94,
+            "val_accuracy": 0.73
+        }
+    ],
+    "VGG16-GMP2D-DPO-01": [
+        {
+            "epoch": 1,
+            "loss": 1.38,
+            "accuracy": 0.3,
+            "val_loss": 1.23,
+            "val_accuracy": 0.42
+        },
+        {
+            "epoch": 2,
+            "loss": 1.03,
+            "accuracy": 0.52,
+            "val_loss": 0.98,
+            "val_accuracy": 0.55
+        },
+        {
+            "epoch": 3,
+            "loss": 0.84,
+            "accuracy": 0.63,
+            "val_loss": 1.04,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 4,
+            "loss": 0.73,
+            "accuracy": 0.69,
+            "val_loss": 0.94,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 5,
+            "loss": 0.66,
+            "accuracy": 0.73,
+            "val_loss": 0.85,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 6,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 1.01,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 7,
+            "loss": 0.6,
+            "accuracy": 0.76,
+            "val_loss": 0.78,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 8,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.73,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 9,
+            "loss": 0.53,
+            "accuracy": 0.79,
+            "val_loss": 0.99,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 10,
+            "loss": 0.53,
+            "accuracy": 0.79,
+            "val_loss": 0.72,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 11,
+            "loss": 0.51,
+            "accuracy": 0.8,
+            "val_loss": 0.82,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 12,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.73,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 13,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.87,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 14,
+            "loss": 0.46,
+            "accuracy": 0.81,
+            "val_loss": 0.75,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 15,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.97,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 16,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.92,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 17,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.78,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 18,
+            "loss": 0.43,
+            "accuracy": 0.82,
+            "val_loss": 0.89,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 19,
+            "loss": 0.42,
+            "accuracy": 0.83,
+            "val_loss": 0.78,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 20,
+            "loss": 0.42,
+            "accuracy": 0.83,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 21,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.75,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 22,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.85,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 23,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.83,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 24,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 25,
+            "loss": 0.38,
+            "accuracy": 0.84,
+            "val_loss": 0.8,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 26,
+            "loss": 0.38,
+            "accuracy": 0.85,
+            "val_loss": 0.83,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 27,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.85,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 28,
+            "loss": 0.39,
+            "accuracy": 0.85,
+            "val_loss": 0.77,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 29,
+            "loss": 0.36,
+            "accuracy": 0.85,
+            "val_loss": 0.97,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 30,
+            "loss": 0.36,
+            "accuracy": 0.85,
+            "val_loss": 0.83,
+            "val_accuracy": 0.72
+        }
+    ],
+    "VGG16-Dense128": [
+        {
+            "epoch": 1,
+            "loss": 1.51,
+            "accuracy": 0.26,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 1,
+            "loss": 1.67,
+            "accuracy": 0.27,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.39,
+            "accuracy": 0.2,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.39,
+            "accuracy": 0.22,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 3,
+            "loss": 1.39,
+            "accuracy": 0.27,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 4,
+            "loss": 1.39,
+            "accuracy": 0.21,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 5,
+            "loss": 1.39,
+            "accuracy": 0.24,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 1.39,
+            "accuracy": 0.26,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 7,
+            "loss": 1.39,
+            "accuracy": 0.23,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 8,
+            "loss": 1.39,
+            "accuracy": 0.29,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        }
+    ],
+    "VGG19-Dense128": [
+        {
+            "epoch": 1,
+            "loss": 1.57,
+            "accuracy": 0.3,
+            "val_loss": 1.3,
+            "val_accuracy": 0.38
+        },
+        {
+            "epoch": 2,
+            "loss": 1.24,
+            "accuracy": 0.38,
+            "val_loss": 1.25,
+            "val_accuracy": 0.39
+        },
+        {
+            "epoch": 3,
+            "loss": 1.02,
+            "accuracy": 0.53,
+            "val_loss": 1.22,
+            "val_accuracy": 0.46
+        },
+        {
+            "epoch": 4,
+            "loss": 0.9,
+            "accuracy": 0.61,
+            "val_loss": 1.08,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 5,
+            "loss": 0.82,
+            "accuracy": 0.64,
+            "val_loss": 1.01,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 6,
+            "loss": 0.75,
+            "accuracy": 0.68,
+            "val_loss": 1.02,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 7,
+            "loss": 0.72,
+            "accuracy": 0.69,
+            "val_loss": 1.0,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 8,
+            "loss": 0.66,
+            "accuracy": 0.72,
+            "val_loss": 0.96,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 9,
+            "loss": 0.66,
+            "accuracy": 0.72,
+            "val_loss": 0.95,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 10,
+            "loss": 0.61,
+            "accuracy": 0.74,
+            "val_loss": 0.96,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 11,
+            "loss": 0.63,
+            "accuracy": 0.74,
+            "val_loss": 1.05,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 12,
+            "loss": 0.58,
+            "accuracy": 0.76,
+            "val_loss": 0.86,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 13,
+            "loss": 0.58,
+            "accuracy": 0.77,
+            "val_loss": 0.87,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 14,
+            "loss": 0.55,
+            "accuracy": 0.78,
+            "val_loss": 0.97,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 15,
+            "loss": 0.55,
+            "accuracy": 0.78,
+            "val_loss": 0.92,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 16,
+            "loss": 0.54,
+            "accuracy": 0.78,
+            "val_loss": 0.84,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 17,
+            "loss": 0.52,
+            "accuracy": 0.8,
+            "val_loss": 1.17,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 18,
+            "loss": 0.51,
+            "accuracy": 0.79,
+            "val_loss": 0.97,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 19,
+            "loss": 0.51,
+            "accuracy": 0.79,
+            "val_loss": 0.76,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 20,
+            "loss": 0.49,
+            "accuracy": 0.81,
+            "val_loss": 0.84,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 21,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.85,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 22,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.88,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 23,
+            "loss": 0.47,
+            "accuracy": 0.82,
+            "val_loss": 1.01,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 24,
+            "loss": 0.48,
+            "accuracy": 0.82,
+            "val_loss": 0.83,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 25,
+            "loss": 0.46,
+            "accuracy": 0.82,
+            "val_loss": 0.9,
+            "val_accuracy": 0.69
+        }
+    ],
+    "VGG16-GMP2D": [
+        {
+            "epoch": 1,
+            "loss": 1.4,
+            "accuracy": 0.31,
+            "val_loss": 1.33,
+            "val_accuracy": 0.37
+        },
+        {
+            "epoch": 2,
+            "loss": 1.1,
+            "accuracy": 0.45,
+            "val_loss": 1.42,
+            "val_accuracy": 0.39
+        },
+        {
+            "epoch": 3,
+            "loss": 1.0,
+            "accuracy": 0.48,
+            "val_loss": 1.18,
+            "val_accuracy": 0.42
+        },
+        {
+            "epoch": 4,
+            "loss": 0.9,
+            "accuracy": 0.54,
+            "val_loss": 1.21,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 5,
+            "loss": 0.84,
+            "accuracy": 0.57,
+            "val_loss": 1.28,
+            "val_accuracy": 0.49
+        },
+        {
+            "epoch": 6,
+            "loss": 0.78,
+            "accuracy": 0.62,
+            "val_loss": 1.17,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 7,
+            "loss": 0.72,
+            "accuracy": 0.67,
+            "val_loss": 1.24,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 8,
+            "loss": 0.65,
+            "accuracy": 0.71,
+            "val_loss": 0.99,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 9,
+            "loss": 0.62,
+            "accuracy": 0.72,
+            "val_loss": 0.95,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 10,
+            "loss": 0.57,
+            "accuracy": 0.76,
+            "val_loss": 1.08,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 11,
+            "loss": 0.55,
+            "accuracy": 0.77,
+            "val_loss": 0.88,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 12,
+            "loss": 0.54,
+            "accuracy": 0.78,
+            "val_loss": 1.19,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 13,
+            "loss": 0.51,
+            "accuracy": 0.79,
+            "val_loss": 0.79,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 14,
+            "loss": 0.5,
+            "accuracy": 0.8,
+            "val_loss": 1.0,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 15,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.8,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 16,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 0.83,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 17,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 0.87,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 18,
+            "loss": 0.45,
+            "accuracy": 0.81,
+            "val_loss": 0.83,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 19,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.85,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 20,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.94,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 21,
+            "loss": 0.43,
+            "accuracy": 0.82,
+            "val_loss": 0.89,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 22,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.91,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 23,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.79,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 24,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.76,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 25,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.91,
+            "val_accuracy": 0.67
+        }
+    ],
+    "VGG16-150x150": [
+        {
+            "epoch": 1,
+            "loss": 1.42,
+            "accuracy": 0.31,
+            "val_loss": 1.49,
+            "val_accuracy": 0.23
+        },
+        {
+            "epoch": 2,
+            "loss": 1.28,
+            "accuracy": 0.39,
+            "val_loss": 1.3,
+            "val_accuracy": 0.39
+        },
+        {
+            "epoch": 3,
+            "loss": 1.12,
+            "accuracy": 0.46,
+            "val_loss": 1.32,
+            "val_accuracy": 0.44
+        },
+        {
+            "epoch": 4,
+            "loss": 0.92,
+            "accuracy": 0.59,
+            "val_loss": 1.29,
+            "val_accuracy": 0.42
+        },
+        {
+            "epoch": 5,
+            "loss": 0.82,
+            "accuracy": 0.65,
+            "val_loss": 1.05,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 6,
+            "loss": 0.76,
+            "accuracy": 0.69,
+            "val_loss": 0.94,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 7,
+            "loss": 0.73,
+            "accuracy": 0.71,
+            "val_loss": 0.88,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 8,
+            "loss": 0.69,
+            "accuracy": 0.72,
+            "val_loss": 0.86,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 9,
+            "loss": 0.66,
+            "accuracy": 0.73,
+            "val_loss": 0.83,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 10,
+            "loss": 0.63,
+            "accuracy": 0.75,
+            "val_loss": 0.86,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 11,
+            "loss": 0.62,
+            "accuracy": 0.76,
+            "val_loss": 0.82,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 12,
+            "loss": 0.59,
+            "accuracy": 0.76,
+            "val_loss": 0.85,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 13,
+            "loss": 0.58,
+            "accuracy": 0.77,
+            "val_loss": 0.77,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 14,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.93,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 15,
+            "loss": 0.56,
+            "accuracy": 0.78,
+            "val_loss": 0.75,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 16,
+            "loss": 0.55,
+            "accuracy": 0.79,
+            "val_loss": 0.87,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 17,
+            "loss": 0.54,
+            "accuracy": 0.78,
+            "val_loss": 0.8,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 18,
+            "loss": 0.55,
+            "accuracy": 0.78,
+            "val_loss": 0.88,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 19,
+            "loss": 0.54,
+            "accuracy": 0.79,
+            "val_loss": 0.75,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 20,
+            "loss": 0.51,
+            "accuracy": 0.8,
+            "val_loss": 0.89,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 21,
+            "loss": 0.52,
+            "accuracy": 0.8,
+            "val_loss": 0.75,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 22,
+            "loss": 0.52,
+            "accuracy": 0.79,
+            "val_loss": 1.1,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 23,
+            "loss": 0.52,
+            "accuracy": 0.79,
+            "val_loss": 0.76,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 24,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.78,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 25,
+            "loss": 0.5,
+            "accuracy": 0.8,
+            "val_loss": 0.82,
+            "val_accuracy": 0.73
+        }
+    ],
+    "VGG19-Dense256-Dense64": [
+        {
+            "epoch": 1,
+            "loss": 1.41,
+            "accuracy": 0.23,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.39,
+            "accuracy": 0.18,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 3,
+            "loss": 1.39,
+            "accuracy": 0.35,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 4,
+            "loss": 1.39,
+            "accuracy": 0.16,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 5,
+            "loss": 1.39,
+            "accuracy": 0.18,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 1.39,
+            "accuracy": 0.21,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 7,
+            "loss": 1.39,
+            "accuracy": 0.28,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        }
+    ],
+    "VGG16-V2": [
+        {
+            "epoch": 1,
+            "loss": 1.38,
+            "accuracy": 0.33,
+            "val_loss": 1.48,
+            "val_accuracy": 0.32
+        },
+        {
+            "epoch": 2,
+            "loss": 1.1,
+            "accuracy": 0.48,
+            "val_loss": 1.23,
+            "val_accuracy": 0.42
+        },
+        {
+            "epoch": 3,
+            "loss": 0.87,
+            "accuracy": 0.59,
+            "val_loss": 1.03,
+            "val_accuracy": 0.52
+        },
+        {
+            "epoch": 4,
+            "loss": 0.76,
+            "accuracy": 0.66,
+            "val_loss": 0.98,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 5,
+            "loss": 0.69,
+            "accuracy": 0.71,
+            "val_loss": 0.93,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 6,
+            "loss": 0.64,
+            "accuracy": 0.73,
+            "val_loss": 0.94,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 7,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 0.92,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 8,
+            "loss": 0.56,
+            "accuracy": 0.78,
+            "val_loss": 0.85,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 9,
+            "loss": 0.54,
+            "accuracy": 0.78,
+            "val_loss": 0.93,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 10,
+            "loss": 0.52,
+            "accuracy": 0.78,
+            "val_loss": 0.99,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 11,
+            "loss": 0.52,
+            "accuracy": 0.79,
+            "val_loss": 1.03,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 12,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.88,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 13,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 0.82,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 14,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 1.08,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 15,
+            "loss": 0.46,
+            "accuracy": 0.82,
+            "val_loss": 1.03,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 16,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.82,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 17,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.82,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 18,
+            "loss": 0.43,
+            "accuracy": 0.83,
+            "val_loss": 0.98,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 19,
+            "loss": 0.43,
+            "accuracy": 0.83,
+            "val_loss": 0.87,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 20,
+            "loss": 0.42,
+            "accuracy": 0.83,
+            "val_loss": 0.89,
+            "val_accuracy": 0.69
+        }
+    ],
+    "INCEPTION_RESNET_V2": [
+        {
+            "epoch": 1,
+            "loss": 0.72,
+            "accuracy": 0.73,
+            "val_loss": 6.03,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 2,
+            "loss": 0.46,
+            "accuracy": 0.83,
+            "val_loss": 0.76,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 3,
+            "loss": 0.41,
+            "accuracy": 0.85,
+            "val_loss": 82.9,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 4,
+            "loss": 0.43,
+            "accuracy": 0.85,
+            "val_loss": 1329.68,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 5,
+            "loss": 0.49,
+            "accuracy": 0.81,
+            "val_loss": 10218.34,
+            "val_accuracy": 0.53
+        },
+        {
+            "epoch": 6,
+            "loss": 0.49,
+            "accuracy": 0.82,
+            "val_loss": 0.93,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 7,
+            "loss": 0.5,
+            "accuracy": 0.82,
+            "val_loss": 9.52,
+            "val_accuracy": 0.62
+        }
+    ],
+    "VGG16-128x128": [
+        {
+            "epoch": 1,
+            "loss": 1.43,
+            "accuracy": 0.31,
+            "val_loss": 1.38,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 2,
+            "loss": 1.32,
+            "accuracy": 0.39,
+            "val_loss": 1.35,
+            "val_accuracy": 0.35
+        },
+        {
+            "epoch": 3,
+            "loss": 1.19,
+            "accuracy": 0.44,
+            "val_loss": 1.4,
+            "val_accuracy": 0.36
+        },
+        {
+            "epoch": 4,
+            "loss": 1.05,
+            "accuracy": 0.51,
+            "val_loss": 1.27,
+            "val_accuracy": 0.42
+        },
+        {
+            "epoch": 5,
+            "loss": 0.92,
+            "accuracy": 0.57,
+            "val_loss": 1.06,
+            "val_accuracy": 0.54
+        },
+        {
+            "epoch": 6,
+            "loss": 0.82,
+            "accuracy": 0.63,
+            "val_loss": 1.17,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 7,
+            "loss": 0.76,
+            "accuracy": 0.67,
+            "val_loss": 1.01,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 8,
+            "loss": 0.7,
+            "accuracy": 0.7,
+            "val_loss": 1.21,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 9,
+            "loss": 0.66,
+            "accuracy": 0.72,
+            "val_loss": 0.88,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 10,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 0.84,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 11,
+            "loss": 0.58,
+            "accuracy": 0.76,
+            "val_loss": 0.78,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 12,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.84,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 13,
+            "loss": 0.55,
+            "accuracy": 0.78,
+            "val_loss": 0.78,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 14,
+            "loss": 0.53,
+            "accuracy": 0.78,
+            "val_loss": 0.78,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 15,
+            "loss": 0.5,
+            "accuracy": 0.79,
+            "val_loss": 0.76,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 16,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.77,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 17,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.7,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 18,
+            "loss": 0.46,
+            "accuracy": 0.82,
+            "val_loss": 0.73,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 19,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.77,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 20,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.81,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 21,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.64,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 22,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.84,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 23,
+            "loss": 0.43,
+            "accuracy": 0.83,
+            "val_loss": 0.96,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 24,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 0.78,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 25,
+            "loss": 0.43,
+            "accuracy": 0.83,
+            "val_loss": 0.8,
+            "val_accuracy": 0.73
+        }
+    ],
+    "VGG16-Dense512": [
+        {
+            "epoch": 1,
+            "loss": 1.37,
+            "accuracy": 0.3,
+            "val_loss": 1.15,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 2,
+            "loss": 1.08,
+            "accuracy": 0.46,
+            "val_loss": 1.1,
+            "val_accuracy": 0.47
+        },
+        {
+            "epoch": 3,
+            "loss": 0.92,
+            "accuracy": 0.58,
+            "val_loss": 1.13,
+            "val_accuracy": 0.47
+        },
+        {
+            "epoch": 4,
+            "loss": 0.81,
+            "accuracy": 0.65,
+            "val_loss": 0.98,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 5,
+            "loss": 0.7,
+            "accuracy": 0.71,
+            "val_loss": 0.84,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 6,
+            "loss": 0.66,
+            "accuracy": 0.73,
+            "val_loss": 0.9,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 7,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 1.13,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 8,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.81,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 9,
+            "loss": 0.56,
+            "accuracy": 0.77,
+            "val_loss": 0.85,
+            "val_accuracy": 0.68
+        }
+    ],
+    "VGG19": [
+        {
+            "epoch": 1,
+            "loss": 1.43,
+            "accuracy": 0.27,
+            "val_loss": 1.39,
+            "val_accuracy": 0.22
+        },
+        {
+            "epoch": 2,
+            "loss": 1.38,
+            "accuracy": 0.31,
+            "val_loss": 1.41,
+            "val_accuracy": 0.28
+        },
+        {
+            "epoch": 3,
+            "loss": 1.26,
+            "accuracy": 0.38,
+            "val_loss": 1.27,
+            "val_accuracy": 0.4
+        },
+        {
+            "epoch": 4,
+            "loss": 1.04,
+            "accuracy": 0.47,
+            "val_loss": 1.31,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 5,
+            "loss": 0.89,
+            "accuracy": 0.56,
+            "val_loss": 1.09,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 6,
+            "loss": 0.82,
+            "accuracy": 0.6,
+            "val_loss": 1.07,
+            "val_accuracy": 0.54
+        },
+        {
+            "epoch": 7,
+            "loss": 0.77,
+            "accuracy": 0.65,
+            "val_loss": 1.13,
+            "val_accuracy": 0.49
+        },
+        {
+            "epoch": 8,
+            "loss": 0.73,
+            "accuracy": 0.66,
+            "val_loss": 1.17,
+            "val_accuracy": 0.53
+        },
+        {
+            "epoch": 9,
+            "loss": 0.69,
+            "accuracy": 0.68,
+            "val_loss": 1.01,
+            "val_accuracy": 0.56
+        }
+    ],
+    "XCEPTION": [
+        {
+            "epoch": 1,
+            "loss": 0.63,
+            "accuracy": 0.76,
+            "val_loss": 0.96,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 2,
+            "loss": 0.42,
+            "accuracy": 0.83,
+            "val_loss": 0.9,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 3,
+            "loss": 0.38,
+            "accuracy": 0.85,
+            "val_loss": 0.77,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 4,
+            "loss": 0.33,
+            "accuracy": 0.87,
+            "val_loss": 1.01,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 5,
+            "loss": 0.31,
+            "accuracy": 0.88,
+            "val_loss": 0.75,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 6,
+            "loss": 0.29,
+            "accuracy": 0.89,
+            "val_loss": 0.99,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 7,
+            "loss": 0.28,
+            "accuracy": 0.89,
+            "val_loss": 1.29,
+            "val_accuracy": 0.69
+        }
+    ],
+    "RESNET50": [
+        {
+            "epoch": 1,
+            "loss": 2.1,
+            "accuracy": 0.56,
+            "val_loss": 24.34,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.83,
+            "accuracy": 0.54,
+            "val_loss": 1.11,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 3,
+            "loss": 1.55,
+            "accuracy": 0.59,
+            "val_loss": 1179.18,
+            "val_accuracy": 0.3
+        },
+        {
+            "epoch": 4,
+            "loss": 1.64,
+            "accuracy": 0.58,
+            "val_loss": 1.14,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 5,
+            "loss": 1.45,
+            "accuracy": 0.62,
+            "val_loss": 2.05,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 6,
+            "loss": 1.32,
+            "accuracy": 0.65,
+            "val_loss": 2.97,
+            "val_accuracy": 0.54
+        },
+        {
+            "epoch": 7,
+            "loss": 1.2,
+            "accuracy": 0.66,
+            "val_loss": 1.4,
+            "val_accuracy": 0.35
+        },
+        {
+            "epoch": 8,
+            "loss": 1.24,
+            "accuracy": 0.64,
+            "val_loss": 1.2,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 9,
+            "loss": 1.27,
+            "accuracy": 0.63,
+            "val_loss": 282.83,
+            "val_accuracy": 0.31
+        },
+        {
+            "epoch": 10,
+            "loss": 1.19,
+            "accuracy": 0.62,
+            "val_loss": 1.73,
+            "val_accuracy": 0.47
+        }
+    ],
+    "VGG16-Dense256": [
+        {
+            "epoch": 1,
+            "loss": 1.41,
+            "accuracy": 0.3,
+            "val_loss": 1.41,
+            "val_accuracy": 0.34
+        },
+        {
+            "epoch": 2,
+            "loss": 1.07,
+            "accuracy": 0.48,
+            "val_loss": 1.31,
+            "val_accuracy": 0.41
+        },
+        {
+            "epoch": 3,
+            "loss": 0.85,
+            "accuracy": 0.61,
+            "val_loss": 1.05,
+            "val_accuracy": 0.54
+        },
+        {
+            "epoch": 4,
+            "loss": 0.76,
+            "accuracy": 0.66,
+            "val_loss": 1.42,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 5,
+            "loss": 0.69,
+            "accuracy": 0.69,
+            "val_loss": 0.99,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 6,
+            "loss": 0.64,
+            "accuracy": 0.72,
+            "val_loss": 0.9,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 7,
+            "loss": 0.6,
+            "accuracy": 0.75,
+            "val_loss": 0.82,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 8,
+            "loss": 0.56,
+            "accuracy": 0.77,
+            "val_loss": 0.86,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 9,
+            "loss": 0.53,
+            "accuracy": 0.79,
+            "val_loss": 1.04,
+            "val_accuracy": 0.63
+        }
+    ],
+    "RESNET50V2": [
+        {
+            "epoch": 1,
+            "loss": 1.99,
+            "accuracy": 0.2,
+            "val_loss": 580.42,
+            "val_accuracy": 0.28
+        },
+        {
+            "epoch": 2,
+            "loss": 1.76,
+            "accuracy": 0.17,
+            "val_loss": 1.79,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 3,
+            "loss": 1.72,
+            "accuracy": 0.16,
+            "val_loss": 1.43,
+            "val_accuracy": 0.24
+        },
+        {
+            "epoch": 4,
+            "loss": 1.61,
+            "accuracy": 0.16,
+            "val_loss": 25.87,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 5,
+            "loss": 1.7,
+            "accuracy": 0.21,
+            "val_loss": 2.62,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 1.61,
+            "accuracy": 0.22,
+            "val_loss": 1735.79,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 7,
+            "loss": 1.65,
+            "accuracy": 0.23,
+            "val_loss": 3.78,
+            "val_accuracy": 0.23
+        },
+        {
+            "epoch": 8,
+            "loss": 1.61,
+            "accuracy": 0.23,
+            "val_loss": 5.65,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 9,
+            "loss": 1.58,
+            "accuracy": 0.23,
+            "val_loss": 2.48,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 10,
+            "loss": 1.51,
+            "accuracy": 0.25,
+            "val_loss": 3.09,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 11,
+            "loss": 1.53,
+            "accuracy": 0.22,
+            "val_loss": 1.44,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 12,
+            "loss": 1.5,
+            "accuracy": 0.23,
+            "val_loss": 1.56,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 13,
+            "loss": 1.58,
+            "accuracy": 0.25,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 14,
+            "loss": 1.73,
+            "accuracy": 0.21,
+            "val_loss": 55.64,
+            "val_accuracy": 0.29
+        },
+        {
+            "epoch": 15,
+            "loss": 1.73,
+            "accuracy": 0.23,
+            "val_loss": 1.84,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 16,
+            "loss": 1.66,
+            "accuracy": 0.21,
+            "val_loss": 1.45,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 17,
+            "loss": 1.69,
+            "accuracy": 0.18,
+            "val_loss": 1.58,
+            "val_accuracy": 0.25
+        }
+    ],
+    "VGG16-Dense512-BatchNorm-Relu": [
+        {
+            "epoch": 1,
+            "loss": 1.43,
+            "accuracy": 0.35,
+            "val_loss": 4.53,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 2,
+            "loss": 1.19,
+            "accuracy": 0.36,
+            "val_loss": 2.49,
+            "val_accuracy": 0.31
+        },
+        {
+            "epoch": 3,
+            "loss": 1.15,
+            "accuracy": 0.38,
+            "val_loss": 1.37,
+            "val_accuracy": 0.3
+        },
+        {
+            "epoch": 4,
+            "loss": 1.08,
+            "accuracy": 0.41,
+            "val_loss": 1.14,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 5,
+            "loss": 1.01,
+            "accuracy": 0.5,
+            "val_loss": 1.73,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 6,
+            "loss": 0.93,
+            "accuracy": 0.56,
+            "val_loss": 1.38,
+            "val_accuracy": 0.37
+        },
+        {
+            "epoch": 7,
+            "loss": 0.88,
+            "accuracy": 0.59,
+            "val_loss": 2.18,
+            "val_accuracy": 0.4
+        },
+        {
+            "epoch": 8,
+            "loss": 0.84,
+            "accuracy": 0.61,
+            "val_loss": 1.08,
+            "val_accuracy": 0.49
+        },
+        {
+            "epoch": 9,
+            "loss": 0.8,
+            "accuracy": 0.63,
+            "val_loss": 1.51,
+            "val_accuracy": 0.38
+        }
+    ],
+    "EFFICIENTNETB2": [
+        {
+            "epoch": 1,
+            "loss": 0.85,
+            "accuracy": 0.66,
+            "val_loss": 2.05,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 1,
+            "loss": 0.88,
+            "accuracy": 0.63,
+            "val_loss": 1.8,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 0.56,
+            "accuracy": 0.78,
+            "val_loss": 1.6,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 3,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 1.7,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 4,
+            "loss": 0.42,
+            "accuracy": 0.84,
+            "val_loss": 50.04,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 5,
+            "loss": 0.38,
+            "accuracy": 0.85,
+            "val_loss": 646.42,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 0.35,
+            "accuracy": 0.86,
+            "val_loss": 831.82,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 7,
+            "loss": 0.32,
+            "accuracy": 0.87,
+            "val_loss": 309.86,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 8,
+            "loss": 0.3,
+            "accuracy": 0.87,
+            "val_loss": 889.93,
+            "val_accuracy": 0.28
+        },
+        {
+            "epoch": 9,
+            "loss": 0.29,
+            "accuracy": 0.88,
+            "val_loss": 94.25,
+            "val_accuracy": 0.23
+        },
+        {
+            "epoch": 10,
+            "loss": 0.28,
+            "accuracy": 0.89,
+            "val_loss": 151.23,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 11,
+            "loss": 0.28,
+            "accuracy": 0.89,
+            "val_loss": 488.37,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 12,
+            "loss": 0.27,
+            "accuracy": 0.89,
+            "val_loss": 904.56,
+            "val_accuracy": 0.27
+        }
+    ],
+    "VGG16-Dense256-128x128x96": [
+        {
+            "epoch": 1,
+            "loss": 1.41,
+            "accuracy": 0.31,
+            "val_loss": 1.43,
+            "val_accuracy": 0.26
+        },
+        {
+            "epoch": 2,
+            "loss": 1.34,
+            "accuracy": 0.39,
+            "val_loss": 1.38,
+            "val_accuracy": 0.31
+        },
+        {
+            "epoch": 3,
+            "loss": 1.31,
+            "accuracy": 0.4,
+            "val_loss": 1.37,
+            "val_accuracy": 0.32
+        },
+        {
+            "epoch": 4,
+            "loss": 1.28,
+            "accuracy": 0.38,
+            "val_loss": 1.37,
+            "val_accuracy": 0.32
+        },
+        {
+            "epoch": 5,
+            "loss": 1.23,
+            "accuracy": 0.4,
+            "val_loss": 1.21,
+            "val_accuracy": 0.44
+        },
+        {
+            "epoch": 6,
+            "loss": 1.2,
+            "accuracy": 0.43,
+            "val_loss": 1.2,
+            "val_accuracy": 0.44
+        },
+        {
+            "epoch": 7,
+            "loss": 1.1,
+            "accuracy": 0.49,
+            "val_loss": 1.32,
+            "val_accuracy": 0.4
+        },
+        {
+            "epoch": 8,
+            "loss": 1.04,
+            "accuracy": 0.56,
+            "val_loss": 1.19,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 9,
+            "loss": 0.98,
+            "accuracy": 0.59,
+            "val_loss": 1.09,
+            "val_accuracy": 0.52
+        },
+        {
+            "epoch": 10,
+            "loss": 0.94,
+            "accuracy": 0.6,
+            "val_loss": 0.99,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 11,
+            "loss": 0.88,
+            "accuracy": 0.63,
+            "val_loss": 0.95,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 12,
+            "loss": 0.86,
+            "accuracy": 0.63,
+            "val_loss": 0.92,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 13,
+            "loss": 0.83,
+            "accuracy": 0.65,
+            "val_loss": 1.13,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 14,
+            "loss": 0.82,
+            "accuracy": 0.66,
+            "val_loss": 1.1,
+            "val_accuracy": 0.55
+        },
+        {
+            "epoch": 15,
+            "loss": 0.81,
+            "accuracy": 0.65,
+            "val_loss": 1.0,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 16,
+            "loss": 0.77,
+            "accuracy": 0.67,
+            "val_loss": 0.86,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 17,
+            "loss": 0.76,
+            "accuracy": 0.69,
+            "val_loss": 1.01,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 18,
+            "loss": 0.77,
+            "accuracy": 0.69,
+            "val_loss": 0.88,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 19,
+            "loss": 0.76,
+            "accuracy": 0.69,
+            "val_loss": 0.84,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 20,
+            "loss": 0.73,
+            "accuracy": 0.7,
+            "val_loss": 1.08,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 21,
+            "loss": 0.72,
+            "accuracy": 0.71,
+            "val_loss": 0.95,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 22,
+            "loss": 0.7,
+            "accuracy": 0.72,
+            "val_loss": 0.82,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 23,
+            "loss": 0.7,
+            "accuracy": 0.71,
+            "val_loss": 0.75,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 24,
+            "loss": 0.71,
+            "accuracy": 0.72,
+            "val_loss": 0.76,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 25,
+            "loss": 0.71,
+            "accuracy": 0.71,
+            "val_loss": 0.8,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 26,
+            "loss": 0.68,
+            "accuracy": 0.73,
+            "val_loss": 0.93,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 27,
+            "loss": 0.68,
+            "accuracy": 0.73,
+            "val_loss": 0.75,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 28,
+            "loss": 0.67,
+            "accuracy": 0.73,
+            "val_loss": 0.94,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 29,
+            "loss": 0.68,
+            "accuracy": 0.72,
+            "val_loss": 0.85,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 30,
+            "loss": 0.63,
+            "accuracy": 0.74,
+            "val_loss": 0.84,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 31,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.87,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 32,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.95,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 33,
+            "loss": 0.63,
+            "accuracy": 0.74,
+            "val_loss": 0.9,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 34,
+            "loss": 0.62,
+            "accuracy": 0.75,
+            "val_loss": 0.73,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 35,
+            "loss": 0.63,
+            "accuracy": 0.75,
+            "val_loss": 0.76,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 36,
+            "loss": 0.61,
+            "accuracy": 0.76,
+            "val_loss": 0.7,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 37,
+            "loss": 0.6,
+            "accuracy": 0.75,
+            "val_loss": 0.76,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 38,
+            "loss": 0.61,
+            "accuracy": 0.76,
+            "val_loss": 0.77,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 39,
+            "loss": 0.58,
+            "accuracy": 0.77,
+            "val_loss": 0.79,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 40,
+            "loss": 0.58,
+            "accuracy": 0.77,
+            "val_loss": 0.74,
+            "val_accuracy": 0.72
+        }
+    ],
+    "VGG16-No-Class-Weights-128x128x64": [
+        {
+            "epoch": 1,
+            "loss": 1.37,
+            "accuracy": 0.48,
+            "val_loss": 1.48,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 1,
+            "loss": 1.26,
+            "accuracy": 0.48,
+            "val_loss": 1.41,
+            "val_accuracy": 0.31
+        },
+        {
+            "epoch": 2,
+            "loss": 1.18,
+            "accuracy": 0.52,
+            "val_loss": 1.31,
+            "val_accuracy": 0.4
+        },
+        {
+            "epoch": 3,
+            "loss": 1.06,
+            "accuracy": 0.58,
+            "val_loss": 1.23,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 4,
+            "loss": 1.0,
+            "accuracy": 0.61,
+            "val_loss": 1.33,
+            "val_accuracy": 0.48
+        },
+        {
+            "epoch": 5,
+            "loss": 0.94,
+            "accuracy": 0.64,
+            "val_loss": 1.05,
+            "val_accuracy": 0.54
+        },
+        {
+            "epoch": 6,
+            "loss": 0.88,
+            "accuracy": 0.66,
+            "val_loss": 1.0,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 7,
+            "loss": 0.85,
+            "accuracy": 0.67,
+            "val_loss": 1.01,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 8,
+            "loss": 0.81,
+            "accuracy": 0.69,
+            "val_loss": 0.8,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 9,
+            "loss": 0.74,
+            "accuracy": 0.71,
+            "val_loss": 1.04,
+            "val_accuracy": 0.55
+        },
+        {
+            "epoch": 10,
+            "loss": 0.73,
+            "accuracy": 0.72,
+            "val_loss": 1.07,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 11,
+            "loss": 0.7,
+            "accuracy": 0.73,
+            "val_loss": 0.79,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 12,
+            "loss": 0.69,
+            "accuracy": 0.74,
+            "val_loss": 0.77,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 13,
+            "loss": 0.67,
+            "accuracy": 0.74,
+            "val_loss": 0.87,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 14,
+            "loss": 0.67,
+            "accuracy": 0.74,
+            "val_loss": 0.75,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 15,
+            "loss": 0.64,
+            "accuracy": 0.76,
+            "val_loss": 0.72,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 16,
+            "loss": 0.62,
+            "accuracy": 0.76,
+            "val_loss": 0.77,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 17,
+            "loss": 0.62,
+            "accuracy": 0.76,
+            "val_loss": 0.83,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 18,
+            "loss": 0.61,
+            "accuracy": 0.76,
+            "val_loss": 0.75,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 19,
+            "loss": 0.6,
+            "accuracy": 0.77,
+            "val_loss": 0.74,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 20,
+            "loss": 0.6,
+            "accuracy": 0.77,
+            "val_loss": 0.84,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 21,
+            "loss": 0.59,
+            "accuracy": 0.77,
+            "val_loss": 0.9,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 22,
+            "loss": 0.59,
+            "accuracy": 0.77,
+            "val_loss": 0.78,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 23,
+            "loss": 0.58,
+            "accuracy": 0.78,
+            "val_loss": 0.84,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 24,
+            "loss": 0.58,
+            "accuracy": 0.78,
+            "val_loss": 0.81,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 25,
+            "loss": 0.56,
+            "accuracy": 0.78,
+            "val_loss": 0.72,
+            "val_accuracy": 0.72
+        }
+    ],
+    "VGG16V3-DP25": [
+        {
+            "epoch": 1,
+            "loss": 1.45,
+            "accuracy": 0.3,
+            "val_loss": 1.35,
+            "val_accuracy": 0.29
+        },
+        {
+            "epoch": 2,
+            "loss": 1.29,
+            "accuracy": 0.42,
+            "val_loss": 1.25,
+            "val_accuracy": 0.44
+        },
+        {
+            "epoch": 3,
+            "loss": 1.2,
+            "accuracy": 0.46,
+            "val_loss": 1.13,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 4,
+            "loss": 1.14,
+            "accuracy": 0.5,
+            "val_loss": 1.31,
+            "val_accuracy": 0.41
+        },
+        {
+            "epoch": 5,
+            "loss": 1.05,
+            "accuracy": 0.56,
+            "val_loss": 1.13,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 6,
+            "loss": 0.98,
+            "accuracy": 0.59,
+            "val_loss": 1.05,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 7,
+            "loss": 0.94,
+            "accuracy": 0.61,
+            "val_loss": 1.37,
+            "val_accuracy": 0.48
+        },
+        {
+            "epoch": 8,
+            "loss": 0.88,
+            "accuracy": 0.64,
+            "val_loss": 1.01,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 9,
+            "loss": 0.84,
+            "accuracy": 0.66,
+            "val_loss": 0.97,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 10,
+            "loss": 0.81,
+            "accuracy": 0.67,
+            "val_loss": 0.89,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 11,
+            "loss": 0.79,
+            "accuracy": 0.68,
+            "val_loss": 0.98,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 12,
+            "loss": 0.77,
+            "accuracy": 0.69,
+            "val_loss": 1.04,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 13,
+            "loss": 0.74,
+            "accuracy": 0.7,
+            "val_loss": 0.85,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 14,
+            "loss": 0.74,
+            "accuracy": 0.69,
+            "val_loss": 0.91,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 15,
+            "loss": 0.72,
+            "accuracy": 0.71,
+            "val_loss": 0.84,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 16,
+            "loss": 0.71,
+            "accuracy": 0.71,
+            "val_loss": 0.99,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 17,
+            "loss": 0.7,
+            "accuracy": 0.72,
+            "val_loss": 0.9,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 18,
+            "loss": 0.68,
+            "accuracy": 0.73,
+            "val_loss": 0.88,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 19,
+            "loss": 0.68,
+            "accuracy": 0.73,
+            "val_loss": 0.9,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 20,
+            "loss": 0.65,
+            "accuracy": 0.74,
+            "val_loss": 0.79,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 21,
+            "loss": 0.65,
+            "accuracy": 0.74,
+            "val_loss": 1.04,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 22,
+            "loss": 0.66,
+            "accuracy": 0.73,
+            "val_loss": 0.98,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 23,
+            "loss": 0.63,
+            "accuracy": 0.75,
+            "val_loss": 0.96,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 24,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.76,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 25,
+            "loss": 0.63,
+            "accuracy": 0.74,
+            "val_loss": 0.84,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 26,
+            "loss": 0.63,
+            "accuracy": 0.75,
+            "val_loss": 0.86,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 27,
+            "loss": 0.63,
+            "accuracy": 0.75,
+            "val_loss": 0.81,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 28,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 0.85,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 29,
+            "loss": 0.6,
+            "accuracy": 0.76,
+            "val_loss": 0.76,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 30,
+            "loss": 0.6,
+            "accuracy": 0.76,
+            "val_loss": 0.8,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 31,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 0.84,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 32,
+            "loss": 0.6,
+            "accuracy": 0.76,
+            "val_loss": 0.89,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 33,
+            "loss": 0.6,
+            "accuracy": 0.75,
+            "val_loss": 0.86,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 34,
+            "loss": 0.6,
+            "accuracy": 0.76,
+            "val_loss": 0.77,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 35,
+            "loss": 0.58,
+            "accuracy": 0.77,
+            "val_loss": 0.72,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 36,
+            "loss": 0.58,
+            "accuracy": 0.76,
+            "val_loss": 0.93,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 37,
+            "loss": 0.59,
+            "accuracy": 0.77,
+            "val_loss": 0.88,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 38,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.74,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 39,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.82,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 40,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 1.3,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 41,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.91,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 42,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.9,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 43,
+            "loss": 0.56,
+            "accuracy": 0.77,
+            "val_loss": 0.93,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 44,
+            "loss": 0.55,
+            "accuracy": 0.78,
+            "val_loss": 0.82,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 45,
+            "loss": 0.56,
+            "accuracy": 0.77,
+            "val_loss": 1.16,
+            "val_accuracy": 0.62
+        }
+    ],
+    "RESNET50-Combined-Dataset": [
+        {
+            "epoch": 1,
+            "loss": 0.98,
+            "accuracy": 0.61,
+            "val_loss": 2.82,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 0.8,
+            "accuracy": 0.66,
+            "val_loss": 2.34,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 3,
+            "loss": 0.66,
+            "accuracy": 0.73,
+            "val_loss": 2.34,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 4,
+            "loss": 0.6,
+            "accuracy": 0.75,
+            "val_loss": 1.55,
+            "val_accuracy": 0.39
+        },
+        {
+            "epoch": 5,
+            "loss": 0.58,
+            "accuracy": 0.75,
+            "val_loss": 0.63,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 6,
+            "loss": 0.55,
+            "accuracy": 0.76,
+            "val_loss": 0.57,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 7,
+            "loss": 0.54,
+            "accuracy": 0.77,
+            "val_loss": 0.5,
+            "val_accuracy": 0.79
+        },
+        {
+            "epoch": 8,
+            "loss": 0.52,
+            "accuracy": 0.78,
+            "val_loss": 0.56,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 9,
+            "loss": 0.55,
+            "accuracy": 0.77,
+            "val_loss": 1.33,
+            "val_accuracy": 0.33
+        },
+        {
+            "epoch": 10,
+            "loss": 0.62,
+            "accuracy": 0.75,
+            "val_loss": 0.72,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 11,
+            "loss": 0.58,
+            "accuracy": 0.76,
+            "val_loss": 2.77,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 12,
+            "loss": 0.69,
+            "accuracy": 0.72,
+            "val_loss": 0.59,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 13,
+            "loss": 0.68,
+            "accuracy": 0.71,
+            "val_loss": 0.55,
+            "val_accuracy": 0.78
+        }
+    ],
+    "VGG16V2": [
+        {
+            "epoch": 1,
+            "loss": 1.42,
+            "accuracy": 0.28,
+            "val_loss": 1.36,
+            "val_accuracy": 0.3
+        },
+        {
+            "epoch": 2,
+            "loss": 1.12,
+            "accuracy": 0.45,
+            "val_loss": 1.22,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 3,
+            "loss": 0.89,
+            "accuracy": 0.58,
+            "val_loss": 1.34,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 4,
+            "loss": 0.78,
+            "accuracy": 0.64,
+            "val_loss": 1.13,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 5,
+            "loss": 0.7,
+            "accuracy": 0.69,
+            "val_loss": 0.92,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 6,
+            "loss": 0.65,
+            "accuracy": 0.72,
+            "val_loss": 0.88,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 7,
+            "loss": 0.61,
+            "accuracy": 0.75,
+            "val_loss": 0.96,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 8,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.98,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 9,
+            "loss": 0.54,
+            "accuracy": 0.78,
+            "val_loss": 1.0,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 10,
+            "loss": 0.53,
+            "accuracy": 0.79,
+            "val_loss": 0.73,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 11,
+            "loss": 0.51,
+            "accuracy": 0.8,
+            "val_loss": 0.91,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 12,
+            "loss": 0.5,
+            "accuracy": 0.8,
+            "val_loss": 0.74,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 13,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.8,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 14,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 0.83,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 15,
+            "loss": 0.47,
+            "accuracy": 0.81,
+            "val_loss": 0.96,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 16,
+            "loss": 0.46,
+            "accuracy": 0.81,
+            "val_loss": 0.79,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 17,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.95,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 18,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.76,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 19,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.93,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 20,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.86,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 21,
+            "loss": 0.43,
+            "accuracy": 0.83,
+            "val_loss": 0.85,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 22,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 23,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.82,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 24,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.71,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 25,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.72,
+            "val_accuracy": 0.74
+        }
+    ],
+    "VGG16-Dense128-Dense64-128x128x64": [
+        {
+            "epoch": 1,
+            "loss": 1.48,
+            "accuracy": 0.34,
+            "val_loss": 1.3,
+            "val_accuracy": 0.39
+        },
+        {
+            "epoch": 1,
+            "loss": 1.41,
+            "accuracy": 0.26,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.39,
+            "accuracy": 0.27,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 2,
+            "loss": 1.26,
+            "accuracy": 0.4,
+            "val_loss": 1.22,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 3,
+            "loss": 1.19,
+            "accuracy": 0.43,
+            "val_loss": 1.26,
+            "val_accuracy": 0.41
+        },
+        {
+            "epoch": 3,
+            "loss": 1.39,
+            "accuracy": 0.25,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 4,
+            "loss": 1.39,
+            "accuracy": 0.29,
+            "val_loss": 1.39,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 4,
+            "loss": 1.15,
+            "accuracy": 0.46,
+            "val_loss": 1.08,
+            "val_accuracy": 0.5
+        },
+        {
+            "epoch": 5,
+            "loss": 1.06,
+            "accuracy": 0.53,
+            "val_loss": 1.03,
+            "val_accuracy": 0.53
+        },
+        {
+            "epoch": 5,
+            "loss": 1.39,
+            "accuracy": 0.22,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 1.39,
+            "accuracy": 0.29,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 6,
+            "loss": 0.98,
+            "accuracy": 0.58,
+            "val_loss": 0.99,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 7,
+            "loss": 1.39,
+            "accuracy": 0.21,
+            "val_loss": 1.38,
+            "val_accuracy": 0.23
+        },
+        {
+            "epoch": 7,
+            "loss": 0.96,
+            "accuracy": 0.6,
+            "val_loss": 1.08,
+            "val_accuracy": 0.52
+        },
+        {
+            "epoch": 8,
+            "loss": 0.88,
+            "accuracy": 0.63,
+            "val_loss": 0.95,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 8,
+            "loss": 1.39,
+            "accuracy": 0.15,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 9,
+            "loss": 0.86,
+            "accuracy": 0.64,
+            "val_loss": 0.93,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 9,
+            "loss": 1.39,
+            "accuracy": 0.17,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 10,
+            "loss": 1.39,
+            "accuracy": 0.16,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 10,
+            "loss": 0.84,
+            "accuracy": 0.65,
+            "val_loss": 1.14,
+            "val_accuracy": 0.55
+        },
+        {
+            "epoch": 11,
+            "loss": 0.8,
+            "accuracy": 0.66,
+            "val_loss": 0.97,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 11,
+            "loss": 1.39,
+            "accuracy": 0.23,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 12,
+            "loss": 1.39,
+            "accuracy": 0.18,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 12,
+            "loss": 0.8,
+            "accuracy": 0.66,
+            "val_loss": 0.89,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 13,
+            "loss": 0.78,
+            "accuracy": 0.67,
+            "val_loss": 0.98,
+            "val_accuracy": 0.56
+        },
+        {
+            "epoch": 13,
+            "loss": 1.39,
+            "accuracy": 0.31,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 14,
+            "loss": 0.75,
+            "accuracy": 0.69,
+            "val_loss": 0.96,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 14,
+            "loss": 1.39,
+            "accuracy": 0.17,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 15,
+            "loss": 1.39,
+            "accuracy": 0.15,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 15,
+            "loss": 0.75,
+            "accuracy": 0.69,
+            "val_loss": 0.93,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 16,
+            "loss": 1.39,
+            "accuracy": 0.17,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 16,
+            "loss": 0.74,
+            "accuracy": 0.7,
+            "val_loss": 0.89,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 17,
+            "loss": 0.75,
+            "accuracy": 0.69,
+            "val_loss": 1.09,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 17,
+            "loss": 1.39,
+            "accuracy": 0.4,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 18,
+            "loss": 1.39,
+            "accuracy": 0.16,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 18,
+            "loss": 0.71,
+            "accuracy": 0.71,
+            "val_loss": 0.85,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 19,
+            "loss": 0.7,
+            "accuracy": 0.71,
+            "val_loss": 0.82,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 19,
+            "loss": 1.39,
+            "accuracy": 0.29,
+            "val_loss": 1.39,
+            "val_accuracy": 0.25
+        },
+        {
+            "epoch": 20,
+            "loss": 0.7,
+            "accuracy": 0.71,
+            "val_loss": 0.82,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 21,
+            "loss": 0.69,
+            "accuracy": 0.72,
+            "val_loss": 0.89,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 22,
+            "loss": 0.69,
+            "accuracy": 0.71,
+            "val_loss": 0.81,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 23,
+            "loss": 0.68,
+            "accuracy": 0.72,
+            "val_loss": 0.82,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 24,
+            "loss": 0.67,
+            "accuracy": 0.73,
+            "val_loss": 0.85,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 25,
+            "loss": 0.66,
+            "accuracy": 0.74,
+            "val_loss": 0.89,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 26,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.78,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 27,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 1.0,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 28,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 1.06,
+            "val_accuracy": 0.61
+        }
+    ],
+    "VGG16-Dense128-128x128x96": [
+        {
+            "epoch": 1,
+            "loss": 1.39,
+            "accuracy": 0.34,
+            "val_loss": 1.4,
+            "val_accuracy": 0.27
+        },
+        {
+            "epoch": 2,
+            "loss": 1.32,
+            "accuracy": 0.38,
+            "val_loss": 1.37,
+            "val_accuracy": 0.32
+        },
+        {
+            "epoch": 3,
+            "loss": 1.29,
+            "accuracy": 0.41,
+            "val_loss": 1.39,
+            "val_accuracy": 0.28
+        },
+        {
+            "epoch": 4,
+            "loss": 1.24,
+            "accuracy": 0.45,
+            "val_loss": 1.29,
+            "val_accuracy": 0.38
+        },
+        {
+            "epoch": 5,
+            "loss": 1.13,
+            "accuracy": 0.53,
+            "val_loss": 1.12,
+            "val_accuracy": 0.53
+        },
+        {
+            "epoch": 6,
+            "loss": 1.05,
+            "accuracy": 0.56,
+            "val_loss": 1.25,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 7,
+            "loss": 0.98,
+            "accuracy": 0.6,
+            "val_loss": 1.27,
+            "val_accuracy": 0.48
+        },
+        {
+            "epoch": 8,
+            "loss": 0.94,
+            "accuracy": 0.62,
+            "val_loss": 1.13,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 9,
+            "loss": 0.88,
+            "accuracy": 0.64,
+            "val_loss": 1.05,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 10,
+            "loss": 0.85,
+            "accuracy": 0.65,
+            "val_loss": 0.98,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 11,
+            "loss": 0.8,
+            "accuracy": 0.68,
+            "val_loss": 0.88,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 12,
+            "loss": 0.79,
+            "accuracy": 0.67,
+            "val_loss": 1.16,
+            "val_accuracy": 0.51
+        },
+        {
+            "epoch": 13,
+            "loss": 0.76,
+            "accuracy": 0.69,
+            "val_loss": 0.96,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 14,
+            "loss": 0.77,
+            "accuracy": 0.69,
+            "val_loss": 0.82,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 15,
+            "loss": 0.74,
+            "accuracy": 0.7,
+            "val_loss": 0.98,
+            "val_accuracy": 0.59
+        },
+        {
+            "epoch": 16,
+            "loss": 0.72,
+            "accuracy": 0.71,
+            "val_loss": 0.9,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 17,
+            "loss": 0.72,
+            "accuracy": 0.71,
+            "val_loss": 0.86,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 18,
+            "loss": 0.72,
+            "accuracy": 0.7,
+            "val_loss": 0.83,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 19,
+            "loss": 0.69,
+            "accuracy": 0.72,
+            "val_loss": 1.05,
+            "val_accuracy": 0.58
+        },
+        {
+            "epoch": 20,
+            "loss": 0.68,
+            "accuracy": 0.73,
+            "val_loss": 0.85,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 21,
+            "loss": 0.65,
+            "accuracy": 0.74,
+            "val_loss": 0.75,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 22,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.77,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 23,
+            "loss": 0.65,
+            "accuracy": 0.74,
+            "val_loss": 0.93,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 24,
+            "loss": 0.64,
+            "accuracy": 0.74,
+            "val_loss": 0.79,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 25,
+            "loss": 0.62,
+            "accuracy": 0.76,
+            "val_loss": 0.7,
+            "val_accuracy": 0.74
+        }
+    ],
+    "VGG16V2-DP25": [
+        {
+            "epoch": 1,
+            "loss": 1.37,
+            "accuracy": 0.29,
+            "val_loss": 1.23,
+            "val_accuracy": 0.41
+        },
+        {
+            "epoch": 2,
+            "loss": 1.05,
+            "accuracy": 0.5,
+            "val_loss": 1.57,
+            "val_accuracy": 0.36
+        },
+        {
+            "epoch": 3,
+            "loss": 0.84,
+            "accuracy": 0.62,
+            "val_loss": 1.03,
+            "val_accuracy": 0.57
+        },
+        {
+            "epoch": 4,
+            "loss": 0.71,
+            "accuracy": 0.69,
+            "val_loss": 0.91,
+            "val_accuracy": 0.61
+        },
+        {
+            "epoch": 5,
+            "loss": 0.65,
+            "accuracy": 0.73,
+            "val_loss": 1.01,
+            "val_accuracy": 0.62
+        },
+        {
+            "epoch": 6,
+            "loss": 0.6,
+            "accuracy": 0.75,
+            "val_loss": 0.91,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 7,
+            "loss": 0.57,
+            "accuracy": 0.77,
+            "val_loss": 0.73,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 8,
+            "loss": 0.55,
+            "accuracy": 0.77,
+            "val_loss": 0.78,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 9,
+            "loss": 0.52,
+            "accuracy": 0.79,
+            "val_loss": 0.88,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 10,
+            "loss": 0.51,
+            "accuracy": 0.8,
+            "val_loss": 0.92,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 11,
+            "loss": 0.52,
+            "accuracy": 0.79,
+            "val_loss": 0.91,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 12,
+            "loss": 0.48,
+            "accuracy": 0.81,
+            "val_loss": 1.08,
+            "val_accuracy": 0.64
+        },
+        {
+            "epoch": 13,
+            "loss": 0.49,
+            "accuracy": 0.8,
+            "val_loss": 0.98,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 14,
+            "loss": 0.46,
+            "accuracy": 0.82,
+            "val_loss": 0.81,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 15,
+            "loss": 0.46,
+            "accuracy": 0.81,
+            "val_loss": 0.76,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 16,
+            "loss": 0.44,
+            "accuracy": 0.82,
+            "val_loss": 0.77,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 17,
+            "loss": 0.44,
+            "accuracy": 0.83,
+            "val_loss": 0.84,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 18,
+            "loss": 0.45,
+            "accuracy": 0.82,
+            "val_loss": 0.78,
+            "val_accuracy": 0.69
+        },
+        {
+            "epoch": 19,
+            "loss": 0.43,
+            "accuracy": 0.82,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 20,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 1.07,
+            "val_accuracy": 0.68
+        },
+        {
+            "epoch": 21,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.74,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 22,
+            "loss": 0.41,
+            "accuracy": 0.83,
+            "val_loss": 0.81,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 23,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 24,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.77,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 25,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.83,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 26,
+            "loss": 0.38,
+            "accuracy": 0.84,
+            "val_loss": 0.85,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 27,
+            "loss": 0.4,
+            "accuracy": 0.84,
+            "val_loss": 0.8,
+            "val_accuracy": 0.7
+        },
+        {
+            "epoch": 28,
+            "loss": 0.38,
+            "accuracy": 0.85,
+            "val_loss": 0.9,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 29,
+            "loss": 0.39,
+            "accuracy": 0.84,
+            "val_loss": 0.84,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 30,
+            "loss": 0.37,
+            "accuracy": 0.85,
+            "val_loss": 1.1,
+            "val_accuracy": 0.66
+        },
+        {
+            "epoch": 31,
+            "loss": 0.37,
+            "accuracy": 0.85,
+            "val_loss": 0.87,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 32,
+            "loss": 0.37,
+            "accuracy": 0.85,
+            "val_loss": 0.74,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 33,
+            "loss": 0.36,
+            "accuracy": 0.86,
+            "val_loss": 0.83,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 34,
+            "loss": 0.36,
+            "accuracy": 0.85,
+            "val_loss": 0.87,
+            "val_accuracy": 0.72
+        },
+        {
+            "epoch": 35,
+            "loss": 0.35,
+            "accuracy": 0.85,
+            "val_loss": 0.84,
+            "val_accuracy": 0.73
+        }
+    ],
+    "VGG16-Combined-Dataset": [
+        {
+            "epoch": 1,
+            "loss": 1.45,
+            "accuracy": 0.27,
+            "val_loss": 1.36,
+            "val_accuracy": 0.28
+        },
+        {
+            "epoch": 2,
+            "loss": 1.27,
+            "accuracy": 0.38,
+            "val_loss": 1.13,
+            "val_accuracy": 0.49
+        },
+        {
+            "epoch": 3,
+            "loss": 1.2,
+            "accuracy": 0.42,
+            "val_loss": 1.19,
+            "val_accuracy": 0.43
+        },
+        {
+            "epoch": 4,
+            "loss": 1.1,
+            "accuracy": 0.49,
+            "val_loss": 1.19,
+            "val_accuracy": 0.45
+        },
+        {
+            "epoch": 5,
+            "loss": 1.03,
+            "accuracy": 0.52,
+            "val_loss": 0.91,
+            "val_accuracy": 0.6
+        },
+        {
+            "epoch": 6,
+            "loss": 0.99,
+            "accuracy": 0.55,
+            "val_loss": 0.81,
+            "val_accuracy": 0.63
+        },
+        {
+            "epoch": 7,
+            "loss": 0.88,
+            "accuracy": 0.6,
+            "val_loss": 0.7,
+            "val_accuracy": 0.65
+        },
+        {
+            "epoch": 8,
+            "loss": 0.8,
+            "accuracy": 0.63,
+            "val_loss": 0.71,
+            "val_accuracy": 0.67
+        },
+        {
+            "epoch": 9,
+            "loss": 0.76,
+            "accuracy": 0.66,
+            "val_loss": 0.67,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 10,
+            "loss": 0.72,
+            "accuracy": 0.68,
+            "val_loss": 0.58,
+            "val_accuracy": 0.73
+        },
+        {
+            "epoch": 11,
+            "loss": 0.7,
+            "accuracy": 0.69,
+            "val_loss": 0.62,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 12,
+            "loss": 0.68,
+            "accuracy": 0.69,
+            "val_loss": 0.56,
+            "val_accuracy": 0.74
+        },
+        {
+            "epoch": 13,
+            "loss": 0.66,
+            "accuracy": 0.7,
+            "val_loss": 0.52,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 14,
+            "loss": 0.66,
+            "accuracy": 0.7,
+            "val_loss": 0.52,
+            "val_accuracy": 0.77
+        },
+        {
+            "epoch": 15,
+            "loss": 0.64,
+            "accuracy": 0.71,
+            "val_loss": 0.73,
+            "val_accuracy": 0.71
+        },
+        {
+            "epoch": 16,
+            "loss": 0.62,
+            "accuracy": 0.73,
+            "val_loss": 0.58,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 17,
+            "loss": 0.62,
+            "accuracy": 0.72,
+            "val_loss": 0.52,
+            "val_accuracy": 0.77
+        },
+        {
+            "epoch": 18,
+            "loss": 0.61,
+            "accuracy": 0.73,
+            "val_loss": 0.57,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 19,
+            "loss": 0.59,
+            "accuracy": 0.73,
+            "val_loss": 0.49,
+            "val_accuracy": 0.79
+        },
+        {
+            "epoch": 20,
+            "loss": 0.6,
+            "accuracy": 0.73,
+            "val_loss": 0.52,
+            "val_accuracy": 0.78
+        },
+        {
+            "epoch": 21,
+            "loss": 0.59,
+            "accuracy": 0.74,
+            "val_loss": 0.53,
+            "val_accuracy": 0.75
+        },
+        {
+            "epoch": 22,
+            "loss": 0.58,
+            "accuracy": 0.74,
+            "val_loss": 0.52,
+            "val_accuracy": 0.78
+        },
+        {
+            "epoch": 23,
+            "loss": 0.58,
+            "accuracy": 0.74,
+            "val_loss": 0.59,
+            "val_accuracy": 0.76
+        },
+        {
+            "epoch": 24,
+            "loss": 0.57,
+            "accuracy": 0.75,
+            "val_loss": 0.46,
+            "val_accuracy": 0.81
+        },
+        {
+            "epoch": 25,
+            "loss": 0.57,
+            "accuracy": 0.76,
+            "val_loss": 0.44,
+            "val_accuracy": 0.82
+        }
+    ]
+}
