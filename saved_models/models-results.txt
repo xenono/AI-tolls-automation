@@ -1,33 +1,97 @@
+Sequential Adam
+Buses :  25.801526717557252 %
+Cars :  71.90839694656489 %
+Motorcycles :  65.80152671755725 %
+Trucks :  43.3587786259542 %
+        model.add(tf.keras.layers.Conv2D(filters=128, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=1, strides=1))
+
+        model.add(tf.keras.layers.Conv2D(filters=127, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=256, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=256, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=512, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Flatten())
+
+        model.add(tf.keras.layers.Dense(units=512, activation='relu'))
+
+
+Sequential Adam
+Buses :  19.236641221374047 %
+Cars :  85.34351145038168 %
+Motorcycles :  21.068702290076335 %
+Trucks :  10.381679389312977 %
+
+        model = tf.keras.models.Sequential()
+        model.add(tf.keras.layers.Conv2D(filters=128, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=1, strides=1))
+
+        model.add(tf.keras.layers.Conv2D(filters=128, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=256, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=256, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Conv2D(filters=512, kernel_size=3, activation='relu'))
+        model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+
+        model.add(tf.keras.layers.Flatten())
+
+        model.add(tf.keras.layers.Dense(units=1024, activation='relu'))
+        model.add(tf.keras.layers.Dense(units=512, activation='relu'))
+
+
+
+
+
+
+
+
+
+
+
+
+
 VGG16-GLOBAL_MAX_POOLING2D-DENSE128-DROPOUT02-SGD unfreeze last 2 layers epoch 20
 Buses :  26.717557251908396 %
 Cars :  81.83206106870229 %
 Motorcycles :  61.52671755725191 %
 Trucks :  51.14503816793893 %
 
+VGG16-global_max_pooling2d-dense512-dropout02-Adam-Unfreeze-2-last-layers 224x224
+Buses :  49.31297709923664 %
+Cars :  97.25190839694656 %
+Motorcycles :  80.1526717557252 %
+Trucks :  50.38167938931298 %
+
+VGG16-global_max_pooling2d-dense512-dropout02-Adam-Freeze-3-last-layers 128x128 Epoch12
+Buses :  51.7557251908397 %
+Cars :  62.13740458015267 %
+Motorcycles :  83.5114503816794 %
+Trucks :  78.77862595419847 %
 
 
-
-
+VGG16-global_max_pooling2d-dense512-dropout02-Adam-Freeze-3-last-layers 224x224 Epoch12
+Buses :  56.030534351145036 %
+Cars :  86.7175572519084 %
+Motorcycles :  95.1145038167939 %
+Trucks :  72.97709923664122 %
 
 VGG16 unfreeze last 2 layers Adam
 Buses :  34.045801526717554 %
 Cars :  80.0 %
 Motorcycles :  76.4885496183206 %
 Trucks :  55.57251908396947 %
-
-VGG16 unfreeze last 2 layers SGD Bad
-
-
-
-
-
-
-
-
-
-
-
-
 
 VGG16 Epoch 36 64x64x64 -> GlobalPooling2D -> Dropout 0.2
 Buses :  80.1526717557252 %
@@ -67,6 +131,10 @@ Bus :  55.725190839694655 %
 Car :  74.04580152671755 %
 Motorcycle :  89.16030534351145 %
 Truck :  63.51145038167939 %
+
+
+
+
 
 VGG16 Epoch 25 128x128x96 -> GlobalPooling2D -> Dense 128 -> Dropout 0.2 76% AC
 Buses :  86.41221374045801 %

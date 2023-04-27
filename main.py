@@ -12,20 +12,19 @@ from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QPixmap
 
 import model
-# from PySide6 import QtCore, QtWidgets, QtGui
 
 
-class MyWidget(QWidget):
-    def __init__(self, cnn_model):
+class GUI(QWidget):
+    def __init__(self, cnn_model, test_image_path):
         super().__init__()
         self.main_layout = QVBoxLayout(self)
 
         self.model = cnn_model
-        self.test_image_path = "dataset/manual_test/"
+        self.test_image_path = test_image_path
         self.images = listdir(self.test_image_path)
 
         self.image_counter = 0
-        self.image_height = 200
+        self.image_height = 224
         self.image_label = QLabel()
         self.setup_ui()
         self.set_image()
@@ -107,9 +106,9 @@ class MyWidget(QWidget):
 
 if __name__ == "__main__":
     # app = QApplication([])
-    model = model.Model("saved_models/model")
-    # #
-    # widget = MyWidget(model)
+    model = model.Model("saved_models/RESNET50V2-Dense4-SGD/Epoch09-L0.71-A0.78-VL1.13-VA0.79.hdf5")
+    # # #
+    # widget = GUI(model, "dataset/manual_test/")
     # # Set dark theme style sheet
     # style_sheet = """
     #     QWidget {

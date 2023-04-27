@@ -1,3 +1,8 @@
-# Datasets
-* trucks and buses https://www.kaggle.com/datasets/cb2383dd48f236fde8e0b0c3af0ea806dfaac1e8e95c68417f3fdbd9848765b3
-* Cars and bikes https://www.kaggle.com/datasets/utkarshsaxenadn/car-vs-bike-classification-dataset
+# Vehicle Type Classification
+
+Artificial Intelligence model which classifies images into 4 classes
+1. Truck
+2. Bus
+3. Car
+4. Motorcycle
+
