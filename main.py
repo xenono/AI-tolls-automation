@@ -103,10 +103,9 @@ class GUI(QWidget):
         progress_bars[2].setValue(round(predictions[2]))
         progress_bars[3].setValue(round(predictions[3]))
 
-
 if __name__ == "__main__":
     # app = QApplication([])
-    model = model.Model("saved_models/RESNET50V2-Dense4-SGD/Epoch09-L0.71-A0.78-VL1.13-VA0.79.hdf5")
+    model = model.Model("saved_models/model")
     # # #
     # widget = GUI(model, "dataset/manual_test/")
     # # Set dark theme style sheet

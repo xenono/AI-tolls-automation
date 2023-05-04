@@ -12,8 +12,8 @@ from PySide6 import QtCore, QtWidgets, QtGui
 from sklearn.utils import class_weight
 from base_model import BaseModel
 
-img_width = 128
-img_height = 128
+img_width = 224
+img_height = 224
 batch_size = 32
 
 
@@ -24,6 +24,7 @@ class Model:
         tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
         self.test_images_folder_path = "dataset/manual_test"
+        self.model_name = "CNN"
         # Preprocessing dataset
         self.train_data_gen = ImageDataGenerator(
             rescale=1. / 255,
@@ -71,7 +72,7 @@ class Model:
         self.model, self.model_name = base_model.get_resnet50v2()
 
         self.model.add(tf.keras.layers.Dense(units=4, activation='softmax'))
-        self.model.compile(optimizer=SGD(0.001),
+        self.model.compile(optimizer='adam',
                            loss='categorical_crossentropy',
                            metrics=['accuracy'])
 
@@ -86,7 +87,7 @@ class Model:
                                                           y=self.training_set.classes)
         class_weights = {k: v for k, v in enumerate(class_weights)}
 
-        self.model.fit(x=self.training_set, validation_data=self.test_set, epochs=15,
+        self.model.fit(x=self.training_set, validation_data=self.test_set, epochs=20,
                        steps_per_epoch=13937 // batch_size,
                        validation_steps=2624 // batch_size, class_weight=class_weights,
                        callbacks=[early_stopping, model_save_callback])
@@ -149,7 +150,7 @@ class Model:
             print(key, ": ", value, "%")
 
     def get_model_name(self, extra=""):
-        model_name = self.model_name.upper()
+        model_name = self.model_name
         for layer in self.model.layers:
             if layer.name == "dense":
                 model_name += "-Dense" + str(layer.units)

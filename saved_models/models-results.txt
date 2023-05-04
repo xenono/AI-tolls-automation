@@ -54,13 +54,11 @@ Trucks :  10.381679389312977 %
 
 
 
-
-
-
-
-
-
-
+Inception Epoch 15 Epoch15-L0.39-A0.84-VL0.59-VA0.79
+Buses :  0.0 %
+Cars :  54.656488549618324 %
+Motorcycles :  20.458015267175572 %
+Trucks :  25.801526717557252 %
 
 VGG16-GLOBAL_MAX_POOLING2D-DENSE128-DROPOUT02-SGD unfreeze last 2 layers epoch 20
 Buses :  26.717557251908396 %
