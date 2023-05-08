@@ -3,12 +3,12 @@ from skimage.io import imread, imsave
 from skimage.transform import resize
 from os import sep, listdir, mkdir, remove
 from PIL import Image
+import sys
 
 
 class DataPreprocessing:
-    def __init__(self, dataset_folder, training_set_folder_name, test_set_folder_name, classes, img_width, img_height):
+    def __init__(self, dataset_folder, training_set_folder_name, test_set_folder_name, img_width, img_height):
         self.dataset_folder = dataset_folder
-        self.classes = classes
         self.training_set_folder_name = training_set_folder_name
         self.test_set_folder_name = test_set_folder_name
         self.img_width = img_width
@@ -19,7 +19,8 @@ class DataPreprocessing:
             scaled_dataset = self.dataset_folder + sep + dataset + "_scaled"
             mkdir(scaled_dataset)
             for folder in listdir(self.dataset_folder + sep + dataset):
-                self.__scale_images_in_folder(self.dataset_folder + sep + folder, scaled_dataset + sep + folder)
+                self.__scale_images_in_folder(self.dataset_folder + sep + dataset + sep + folder,
+                                              scaled_dataset + sep + folder)
 
     def find_corrupted_images_in_folder(self, folder, remove_image=True):
         for file in listdir(folder):
@@ -49,3 +50,15 @@ class DataPreprocessing:
                 print("Cannot read the file, image will not be scaled")
                 print("Continue...")
                 continue
+
+
+if __name__ == "__main__":
+    dataset_folder = input("Enter name of folder where training and test set are: ")
+    training_set_folder_name = input("Enter name of the training set folder: ")
+    test_set_folder_name = input("Enter name of the test set folder: ")
+    img_width = int(input("Enter input width: "))
+    img_height = int(input("Enter input height: "))
+    data_preprocessing = DataPreprocessing(dataset_folder, training_set_folder_name, test_set_folder_name, img_width,
+                                           img_height)
+
+    data_preprocessing.scale_dataset()

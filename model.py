@@ -1,19 +1,13 @@
-import sys  # to access the system
-import os
-from os import listdir, system
-from os.path import isfile, join, isdir
-import logging
+from os import listdir
+from os.path import isfile
 import tensorflow as tf
 import numpy as np
-from keras import utils
 from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
-from tensorflow.keras.optimizers import SGD
-from PySide6 import QtCore, QtWidgets, QtGui
 from sklearn.utils import class_weight
 from base_model import BaseModel
 
-img_width = 224
-img_height = 224
+img_width = 128
+img_height = 128
 batch_size = 32
 
 
@@ -25,6 +19,7 @@ class Model:
 
         self.test_images_folder_path = "dataset/manual_test"
         self.model_name = "CNN"
+
         # Preprocessing dataset
         self.train_data_gen = ImageDataGenerator(
             rescale=1. / 255,
@@ -42,7 +37,7 @@ class Model:
             'dataset/training_set',
             target_size=(img_width, img_height),
             batch_size=batch_size,
-            class_mode='categorical'
+            class_mode='categorical',
         )
 
         self.test_set_data_gen = ImageDataGenerator(rescale=1. / 255)
@@ -54,22 +49,22 @@ class Model:
             class_mode='categorical'
         )
         self.classes = {}
-
         for key, value in self.training_set.class_indices.items():
             self.classes[value] = (key[:-1] if key != "buses" else key[:-2]).capitalize()
+
         if not isfile(self.saved_model_path):
             self.model = self.train_model()
         else:
             self.model = self.load_model()
 
-        # self.model.evaluate(self.test_set)
-        # print(self.training_set.class_indices)
-        self.get_per_class_accuracy(["Buses", "Cars", "Motorcycles", "Trucks"])
+        self.model.evaluate(self.test_set)
+        print(self.training_set.class_indices)
+        # self.get_per_class_accuracy(["Buses", "Cars", "Motorcycles", "Trucks"])
 
     def train_model(self):
         base_model = BaseModel(img_width, img_height)
 
-        self.model, self.model_name = base_model.get_resnet50v2()
+        self.model, self.model_name = base_model.get_vgg19()
 
         self.model.add(tf.keras.layers.Dense(units=4, activation='softmax'))
         self.model.compile(optimizer='adam',
@@ -87,7 +82,7 @@ class Model:
                                                           y=self.training_set.classes)
         class_weights = {k: v for k, v in enumerate(class_weights)}
 
-        self.model.fit(x=self.training_set, validation_data=self.test_set, epochs=20,
+        self.model.fit(x=self.training_set, validation_data=self.test_set, epochs=15,
                        steps_per_epoch=13937 // batch_size,
                        validation_steps=2624 // batch_size, class_weight=class_weights,
                        callbacks=[early_stopping, model_save_callback])
@@ -103,24 +98,25 @@ class Model:
 
         test_image = load_img(img_path, target_size=(img_width, img_height))
         test_image = img_to_array(test_image)
+        test_image /= 255.
         test_image = np.expand_dims(test_image, axis=0)
-        predictions = (tf.nn.softmax(self.model.predict(test_image)[0])).numpy()
         result = self.model.predict(test_image)[0]
         item_index = np.where(result == max(result))[0][0]
 
         print("--- ---")
         print("Image name: ", img_name)
-        print(predictions)
+        print(result)
         print("Prediction: ", self.classes[item_index])
         for index, prob in enumerate(result):
             print(self.classes[index], ": ", prob)
 
-        return predictions
+        return result
 
     def predict_single_class(self, vehicle_type, img):
         img_path = "dataset/test_set/" + vehicle_type + "/" + img
         test_image = load_img(img_path, target_size=(img_width, img_height))
         test_image = img_to_array(test_image)
+        test_image /= 255.
         test_image = np.expand_dims(test_image, axis=0)
         result = self.model.predict(test_image, verbose=0)[0]
 
@@ -155,7 +151,7 @@ class Model:
             if layer.name == "dense":
                 model_name += "-Dense" + str(layer.units)
             elif layer.name == "dropout":
-                model_name += "Dropout" + str(layer.rate).replace(".","")
+                model_name += "Dropout" + str(layer.rate).replace(".", "")
         model_name += "-" + str(type(self.model.optimizer).__name__)
         model_name += extra
 

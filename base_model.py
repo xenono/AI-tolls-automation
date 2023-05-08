@@ -37,7 +37,6 @@ class BaseModel:
     def get_vgg16(self):
         model = tf.keras.models.Sequential()
 
-        # Transfer learning model
         base_model = tf.keras.applications.VGG16(input_tensor=self.image_input, input_shape=self.input_shape,
                                                  weights='imagenet', include_top=False)
         # Freeze last 3 layers
@@ -48,7 +47,6 @@ class BaseModel:
 
         # Extra layers added at the end of the model
         model.add(tf.keras.layers.GlobalMaxPool2D())
-        model.add(tf.keras.layers.Dense(units=512, activation='relu'))
         model.add(tf.keras.layers.Dropout(0.2))
 
         return model, "VGG16"
@@ -56,7 +54,6 @@ class BaseModel:
     def get_vgg19(self):
         model = tf.keras.models.Sequential()
 
-        # Transfer learning model
         base_model = tf.keras.applications.VGG19(input_tensor=self.image_input, input_shape=self.input_shape,
                                                  weights='imagenet', include_top=False)
         # Freeze last 3 layers
@@ -67,22 +64,21 @@ class BaseModel:
 
         # Extra layers added at the end of the model
         model.add(tf.keras.layers.GlobalMaxPool2D())
-        model.add(tf.keras.layers.Dropout(0.1))
+        model.add(tf.keras.layers.Dropout(0.2))
 
         return model, "VGG19"
 
     def get_resnet50v2(self):
         model = tf.keras.models.Sequential()
 
-        base_model = tf.keras.applications.ResNet50(input_tensor=self.image_input, input_shape=self.input_shape,
-                                                    weights='imagenet', include_top=False)
+        base_model = tf.keras.applications.ResNet50V2(input_tensor=self.image_input, input_shape=self.input_shape,
+                                                      weights='imagenet', include_top=False)
 
-        for layer in base_model.layers:
-            layer.trainable = False
         model.add(base_model)
-        model.add(tf.keras.layers.Flatten())
+        model.add(tf.keras.layers.GlobalMaxPool2D())
+        model.add(tf.keras.layers.Dense(units=1024, activation='relu'))
 
-        return model, "ResNet50"
+        return model, "ResNet50V2"
 
     def get_inception3(self):
         model = tf.keras.models.Sequential()
@@ -99,8 +95,6 @@ class BaseModel:
 
         model.add(tf.keras.layers.GlobalAveragePooling2D())
         model.add(tf.keras.layers.Dense(units=512, activation='relu'))
-
-        # model.add(tf.keras.layers.Dropout(0.2))
 
     def get_efficient_net_b2(self):
         model = tf.keras.models.Sequential()
@@ -122,6 +116,6 @@ class BaseModel:
         model.add(base_model)
 
         model.add(tf.keras.layers.GlobalMaxPool2D())
-        model.add(tf.keras.layers.Dropout(0.2))
+        model.add(tf.keras.layers.Dropout(0.1))
 
         return model, "MobileNet"

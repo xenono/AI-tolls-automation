@@ -1,11 +1,5 @@
 import sys
 from os import listdir
-import random
-
-import tensorflow
-# from PySide6.QtCore import QTimer
-# from PySide6.QtGui import QPixmap, Qt
-# from PySide6.QtWidgets import QLabel, QApplication
 
 from PyQt5.QtWidgets import QLabel, QApplication, QVBoxLayout, QWidget, QProgressBar, QHBoxLayout
 from PyQt5.QtCore import QTimer, Qt
@@ -24,7 +18,7 @@ class GUI(QWidget):
         self.images = listdir(self.test_image_path)
 
         self.image_counter = 0
-        self.image_height = 224
+        self.image_height = 400
         self.image_label = QLabel()
         self.setup_ui()
         self.set_image()
@@ -103,24 +97,24 @@ class GUI(QWidget):
         progress_bars[2].setValue(round(predictions[2]))
         progress_bars[3].setValue(round(predictions[3]))
 
+
 if __name__ == "__main__":
-    # app = QApplication([])
-    model = model.Model("saved_models/model")
-    # # #
-    # widget = GUI(model, "dataset/manual_test/")
-    # # Set dark theme style sheet
-    # style_sheet = """
-    #     QWidget {
-    #         background-color: #333;
-    #         color: #fff;
-    #     }
-    #     QProgressBar {
-    #         background-color: #555;
-    #     }
-    #     """
-    # widget.setStyleSheet(style_sheet)
-    #
-    # widget.resize(1000, 800)
-    # widget.show()
-    #
-    # sys.exit(app.exec())
+    app = QApplication([])
+    model = model.Model("saved_models/Best-VGG19-60-80-85-70.hdf5")
+    widget = GUI(model, "dataset/manual_test/")
+    # Set dark theme style sheet
+    style_sheet = """
+        QWidget {
+            background-color: #333;
+            color: #fff;
+        }
+        QProgressBar {
+            background-color: #555;
+        }
+        """
+    widget.setStyleSheet(style_sheet)
+
+    widget.resize(1000, 800)
+    widget.show()
+
+    sys.exit(app.exec())
