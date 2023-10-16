@@ -57,14 +57,10 @@ class Model:
         else:
             self.model = self.load_model()
 
-        self.model.evaluate(self.test_set)
-        print(self.training_set.class_indices)
-        # self.get_per_class_accuracy(["Buses", "Cars", "Motorcycles", "Trucks"])
-
     def train_model(self):
         base_model = BaseModel(img_width, img_height)
 
-        self.model, self.model_name = base_model.get_vgg19()
+        self.model, self.model_name = base_model.get_resnet50v2()
 
         self.model.add(tf.keras.layers.Dense(units=4, activation='softmax'))
         self.model.compile(optimizer='adam',
@@ -74,7 +70,7 @@ class Model:
         early_stopping = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=5, verbose=0)
 
         # Save models per epoch
-        model_path = "saved_models/" + self.get_model_name() + "/Epoch{epoch:02d}-L{loss:.2f}-A{accuracy:.2f}-VL{val_loss:.2f}-VA{val_accuracy:.2f}.hdf5"
+        model_path = "saved_models/Best-VGG19-60-80-85-70.hdf5"
         model_save_callback = tf.keras.callbacks.ModelCheckpoint(model_path, save_best_only=False, monitor='loss')
 
         # Class weights

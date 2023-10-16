@@ -71,14 +71,17 @@ class BaseModel:
     def get_resnet50v2(self):
         model = tf.keras.models.Sequential()
 
-        base_model = tf.keras.applications.ResNet50V2(input_tensor=self.image_input, input_shape=self.input_shape,
-                                                      weights='imagenet', include_top=False)
+        base_model = tf.keras.applications.ResNet152V2(input_tensor=self.image_input, input_shape=self.input_shape,
+                                                       weights='imagenet', include_top=False)
 
         model.add(base_model)
         model.add(tf.keras.layers.GlobalMaxPool2D())
-        model.add(tf.keras.layers.Dense(units=1024, activation='relu'))
+        # model.add(tf.keras.layers.Dense(units=1024, activation='relu'))
 
-        return model, "ResNet50V2"
+        # model.add(tf.keras.layers.Dropout(0.2))
+        #
+
+        return model, "ResNet152V2"
 
     def get_inception3(self):
         model = tf.keras.models.Sequential()
@@ -95,6 +98,8 @@ class BaseModel:
 
         model.add(tf.keras.layers.GlobalAveragePooling2D())
         model.add(tf.keras.layers.Dense(units=512, activation='relu'))
+
+        return model, "InceptionV3"
 
     def get_efficient_net_b2(self):
         model = tf.keras.models.Sequential()
