@@ -14,4 +14,4 @@ The project includes:
 * Picking the best dataset for the problem of the research
 * Analysing results of the models and comparing their fine-tuning, layers and overall structure.
 
-Full dissertation document can be found <a href="https://github.com/xenono/vehicle-classification/blob/main/Dissertation-Writeup.pdf">here</a>
+Full dissertation document can be found <a href="https://github.com/xenono/AI-tolls-automation/blob/main/Dissertation-Writeup.pdf">here</a>
