@@ -1,6 +1,6 @@
 # Using AI in motorway toll booths to apply appropriate rates based on vehicle type recognition.
 
-## Dissertation project degree of Bachelor of Science in Computer Science at Liverpool Hope University
+## Dissertation project for the Degree of Bachelor of Science in Computer Science at Liverpool Hope University
 
 This dissertation research will focus on vehicle type classification in the images into the four most
 common vehicle classes which are, Truck, Bus, Car and Motorcycle in a motorway toll booth
